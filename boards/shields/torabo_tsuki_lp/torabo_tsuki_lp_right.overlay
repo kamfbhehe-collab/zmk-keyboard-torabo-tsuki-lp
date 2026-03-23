@@ -7,10 +7,6 @@
     input-processors = <&zip_temp_layer 1 500>;
 };
 
-&msc_input_listener {
-    input-processors = <&zip_temp_layer 2 500>;
-}
-
 
 &size_s_transform {
     col-offset = <7>;
